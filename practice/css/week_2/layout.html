@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Layout</title>
+  <style>
+
+
+      #header {
+          background-color: chocolate;
+          color: cornsilk;
+          padding: 40px;
+      }
+
+
+      #header h1 {
+          color: rgb(241, 225, 75);
+      }
+
+      #main{
+          background-color:darkslategrey;
+          color:#fffaf0;
+          padding: 30px;
+          border: solid 10px darkgrey;
+          border-radius: 30px;
+          margin: 100px;
+          padding-left:25px;
+          
+      }
+
+      #footer{
+          background-color: rgb(165, 214, 247);
+          width: 400px;
+          height:100px;
+          margin: 0 auto;
+          padding-left: 100px;
+          
+          
+      }
+
+      #footer h6{
+          color:wheat;
+      }
+
+      #footer div h6{
+          color:tomato;
+      }
+
+     #food-list {
+         list-style-type: none;
+         background-color: greenyellow;
+         padding left:0
+     }
+     
+     #food-list li {
+         display: inline-block;
+         background-color:yellow;
+         margin: 10 px auto;
+         width: 11.11%;
+     }
+   </style>
+
+</head>
+
+<body>
+ 
+<!--HTML5 version is <header></header>-->
+    <div id="header">
+        <h1>This is the title of the header area. </h1>
+        <p> This area is the first div.</p>
+    </div>
+<!--HTML5 version is <main></main> -->
+    <div id="main">
+        <p>This area is the second div.</p>
+    </div>
+
+
+    <ul id="food-list">
+        <li>Sushi</li><li>Cat food</li><li>Cheese</li><li>Donuts</li><li>Pupusas</li><li>Hamburgers</li><li>Fries</li><li>Steak</li><li>Algae</li>
+
+    </ul>
+
+<!--HTML5 version is <footer></footer> -->
+    <div id="footer">
+        <p>&copy; 2020 <span id="myname">Lucas</span> Freire </p>
+        <h6>This is really tiny text </h6>
+
+        <div>
+            <h6>This is a really tiny text </h6>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>
