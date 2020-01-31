@@ -5,94 +5,174 @@
   <meta charset="utf-8">
 
   <title>Layout</title>
+
   <style>
 
+    body{
+        background-color: lightslategrey;
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
 
-      #header {
-          background-color: chocolate;
-          color: cornsilk;
-          padding: 40px;
-      }
+    p {
+        color:skyblue;
+    }
+
+    #footer p {
+        color: red;
+    }
+
+    #footer {
+        background-color: rgb(243, 243, 123);
+        width: 900px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    #footer h6 {
+        color: white;
+    }
+
+    #footer div h6 {
+        color: coral;
+    }
+
+    #header h1 {
+        color:darkgrey;
+    }
+
+    #header {
+        width:820px;
+        background-color:chocolate;
+        color:cornsilk;
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    #main {
+        color:darkblue;
+        width: 880px;
+        border: solid 5px orange;
+        border-radius: 30px;
+        margin: 25px auto;
+        padding-left: 0;
+        background-color:rgba(69, 51, 88, 0.5)
+    }
+
+    #main div {
+        border-radius: 15px;
+        height: 100px;
+        background-color: darksalmon;
+        margin: 0 auto 10px auto;
+        width: 75%;
+        overflow: auto;
+        margin-top: 20px;
+        background-image: url(sky.jpg);
+        background-size:unset;
 
 
-      #header h1 {
-          color: rgb(241, 225, 75);
-      }
 
-      #main{
-          background-color:darkslategrey;
-          color:#fffaf0;
-          padding: 30px;
-          border: solid 10px darkgrey;
-          border-radius: 30px;
-          margin: 100px;
-          padding-left:25px;
-          
-      }
+    }
 
-      #footer{
-          background-color: rgb(165, 214, 247);
-          width: 400px;
-          height:100px;
-          margin: 0 auto;
-          padding-left: 100px;
-          
-          
-      }
+    #main div: :nth-child(1){
+        margin-top: 20px;
+    }
 
-      #footer h6{
-          color:wheat;
-      }
+    #main div p{
+        color:ghostwhite;
+        font-size: 40px;
+        font-family: "Arial";
+        margin: 20px;
+    }
 
-      #footer div h6{
-          color:tomato;
-      }
+    #main .odd{
+        background-color: cadetblue;
+    }
 
-     #food-list {
-         list-style-type: none;
-         background-color: greenyellow;
-         padding left:0
-     }
-     
-     #food-list li {
-         display: inline-block;
-         background-color:yellow;
-         margin: 10 px auto;
-         width: 11.11%;
-     }
-   </style>
+    #main .even{
+        background-color: burlywood;
+    }
+    #food-list {
+        list-style-type: none;
+        background-color:cornsilk;
+        padding-left: 0;
+        width:900px;
+        margin: 0 auto;
+    }
+
+    #food-list li {
+        display: inline-block;
+        background-color: khaki;
+        margin: 10px;
+        width: 57px;
+    }
+
+    #videos {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+  </style>
 
 </head>
 
 <body>
- 
-<!--HTML5 version is <header></header>-->
+
+    <!-- HTML5 version is <header></header> -->
     <div id="header">
-        <h1>This is the title of the header area. </h1>
-        <p> This area is the first div.</p>
+        <h1>This is the title of the header area.</h1>
+        <p>This area is the first div.</p>
     </div>
-<!--HTML5 version is <main></main> -->
+
+    <!-- HTML5 version is <main></main> -->
     <div id="main">
+        <div class="odd">
         <p>This area is the second div.</p>
+
+        </div>
+
+
+        <div class="even">
+
+        </div>
+
+
+        <div class="odd">
+
+        </div>
+
+
+        <div class="even">
+
+        </div>
+
+
+        <div class="odd">
+
+        </div>
+
+
     </div>
 
-
-    <ul id="food-list">
-        <li>Sushi</li><li>Cat food</li><li>Cheese</li><li>Donuts</li><li>Pupusas</li><li>Hamburgers</li><li>Fries</li><li>Steak</li><li>Algae</li>
-
-    </ul>
-
-<!--HTML5 version is <footer></footer> -->
+    <!-- HTML5 version is <footer></footer> -->
     <div id="footer">
-        <p>&copy; 2020 <span id="myname">Lucas</span> Freire </p>
-        <h6>This is really tiny text </h6>
+        <p>&copy; 2020 <span id="myname">Eduardo</span> Garcia</p>
+        <h6>This is really tiny text as well!</h6>
 
         <div>
-            <h6>This is a really tiny text </h6>
+            <h6>This is really tiny text!</h6>
         </div>
     </div>
 
-   
+    <ul id="food-list">
+        <li>Sushi</li><li>Cat Food</li><li>Cheese</li><li>Donuts</li><li>Pupusas</li><li>Hamburger</li><li>Fries</li><li>Steak</li><li>Algae</li>
+    </ul>
+
+    <div id="videos">
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/gCcs2UxkYvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 </body>
+
 </html>
