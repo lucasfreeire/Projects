@@ -5,112 +5,21 @@
   <meta charset="utf-8">
 
   <title>Layout</title>
+  
+
+  <link rel="stylesheet" href="reset.css" />
+
 
   <style>
-
-    body{
-        background-color: lightslategrey;
-        background-image: url("background.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    } 
-
-    p {
-        color:skyblue;
-    }
-
-    #footer p {
-        color: red;
-    }
-
-    #footer {
-        background-color: rgb(243, 243, 123);
-        width: 900px;
-        height: 400px;
-        margin: 0 auto;
-    }
-
-    #footer h6 {
-        color: white;
-    }
-
-    #footer div h6 {
-        color: coral;
-    }
-
-    #header h1 {
-        color:darkgrey;
-    }
-
-    #header {
-        width:820px;
-        background-color:chocolate;
-        color:cornsilk;
-        padding: 40px;
-        margin: 0 auto;
-    }
-
-    #main {
-        color:darkblue;
-        width: 880px;
-        border: solid 5px orange;
-        border-radius: 30px;
-        margin: 25px auto;
-        padding-left: 0;
-        background-color:rgba(69, 51, 88, 0.5)
-    }
-
-    #main div {
-        border-radius: 15px;
-        height: 100px;
-        background-color: darksalmon;
-        margin: 0 auto 10px auto;
-        width: 75%;
-        overflow: auto;
-        margin-top: 20px;
-        background-image: url(sky.jpg);
-        background-size:unset;
-
-
-
-    }
-
-    #main div: :nth-child(1){
-        margin-top: 20px;
-    }
-
-    #main div p{
-        color:ghostwhite;
-        font-size: 40px;
-        font-family: "Arial";
-        margin: 20px;
-    }
-
-    #main .odd{
-        background-color: cadetblue;
-    }
-
-    #main .even{
-        background-color: burlywood;
-    }
-    #food-list {
-        list-style-type: none;
-        background-color:cornsilk;
-        padding-left: 0;
-        width:900px;
-        margin: 0 auto;
-    }
-
-    #food-list li {
-        display: inline-block;
-        background-color: khaki;
-        margin: 10px;
-        width: 57px;
-    }
-
-    #videos {
-        width: 900px;
-        margin: 0 auto;
+ 
+ h1{
+     font-size: 72px;
+ }
+    p{
+        font-size: 48px;
+        border: slateblue 2px dashed;
+        width: 600px;
+        margin: 40px auto;
     }
 
   </style>
@@ -157,12 +66,14 @@
 
     <!-- HTML5 version is <footer></footer> -->
     <div id="footer">
-        <p>&copy; 2020 <span id="myname">Eduardo</span> Garcia</p>
-        <h6>This is really tiny text as well!</h6>
+        <div class="footer-columns" id="footer-left">
 
-        <div>
-            <h6>This is really tiny text!</h6>
+        </div><div class="footer-columns" id="footer-center">
+
+        </div><div class="footer-columns" id="footer-right">
+
         </div>
+        
     </div>
 
     <ul id="food-list">
