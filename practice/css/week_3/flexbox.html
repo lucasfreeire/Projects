@@ -8,23 +8,32 @@
 
       #my-flexbox {
           background-color: dimgray;
-          height: 500px;
           display: flex;
-          flex-direction: row-reverse; 
+          flex-direction: row; 
       }
       
       .flexbox-items {
-          background-color: blue;
-          flex-grow: 2;
+          background-color: slateblue;
           margin: 20px;
       }
-
-       #special-item {
-        flex-grow: 2;
+    
+    
+       #first-item {
+        order: 3;
+    }
+      
+       #special-items {
+        flex-shrink: 2;
+        order: 2;
     }
 
-    #last-item {
-        flex-shrink: 2;
+       #third-item {
+           order: 1;
+    }
+
+       #last-item {
+        order: 4;
+        
 
     }
 
@@ -39,12 +48,18 @@
 
 
   <div id="my-flexbox">
-      <div class="flexbox-items"></div>
-      <div id="special-items" class="flexbox-items"></div>
-      <P>Hello there, how are you! 1</p>
-      <div id="flexbox-items"></div>
-      <p>Hello there, how ar you! 2</p>
-      <div id="flexbox-items"></div>
+      <div id="first-item" class="flexbox-items">
+          <p>Hello there, how are you 1!</p>
+      </div>
+      <div id="special-items" class="flexbox-items">
+          <p>Hello there, how are you 2!</p>
+      </div>
+      <div id="third-item" class="flexbox-items">
+           <p>Hello there, how are you! 3!</p>
+      </div>
+      <div id="last-item" class="flexbox-items">
+           <p>Hello there, how are you 4!</p>
+      </div>
 
   </div>
 </body>
