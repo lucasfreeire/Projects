@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Table Practice</title>
+
+<style>
+
+table{
+    font-family: "Courier";
+    width: 650px;
+    font-size: 14px;
+
+}
+
+thead tr th{
+    background-color: teal;
+    color: white;
+    height: 35px;
+    font-weight: bold;
+}
+
+thead tr:first-child th {
+    background-color: grey;
+
+}
+
+tbody > tr > th {
+    background-color: darkgrey;
+}
+
+tbody tr{
+    height: 25px;
+}
+
+tbody tr td{
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial;
+
+}
+</style>
+
+
+  
+</head>
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <th colspan="8">AMD Power/Frequency Comparison</th>
+            </tr>
+            <tr>
+                <th>AnandTech</th>
+                <th>Cores</th>
+                <th>CPU TPD</th>
+                <th></th>
+                <th>1-Core Power</th>
+                <th>1-Core Freq</th>
+                <th>Full Load Power/core</th>
+                <th>Full Load Freq</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <th>3990X</th>
+              <td>64</td>
+              <td>280 W</td>
+              <td>&nbsp;</td>
+              <td>10.4 W</td>
+              <td>4350</td>
+              <td>3.0 W</td>
+              <td>3450</td>
+            </tr>
+            <tr>
+              <th>3970X</th>
+              <td>32</td>
+              <td>280 W</td>
+              <td>&nbsp;</td>
+              <td>13.0 W</td>
+              <td>4310</td>
+              <td>7.0 W</td>
+              <td>3810</td>
+            </tr>
+            <tr>
+              <th>3960X</th>
+              <td>24</td>
+              <td>280 W</td>
+              <td>&nbsp;</td>
+              <td>13.5 W</td>
+              <td>4400</td>
+              <td>8.6 W</td>
+              <td>3950</td>
+            </tr>
+            <tr>
+              <th>3950X</th>
+              <td>16</td>
+              <td>105 W</td>
+              <td>&nbsp;</td>
+              <td>18.3 W</td>
+              <td>4450</td>
+              <td>7.1 W</td>
+              <td>3885</td>
+            </tr> 
+          </thead>
+      
+          
+        
+        </table>
+        
+      </body>
+</html>
