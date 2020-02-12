@@ -30,10 +30,6 @@ header h1 {
     
 }
 
-header h1:hover {
-
-}
-
 #logo {
     float: left;
 }
@@ -57,7 +53,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: tomato;
+    background-color: slategray;
 }
 
 nav ul li a {
@@ -75,7 +71,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
    }
 
 nav ul li a:active {
@@ -98,8 +94,8 @@ footer {
 }
 
 #social-links ul {
-
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #social-links ul li {
@@ -114,22 +110,100 @@ footer {
    box-sizing: border-box;
 }
 
-#social-links ul li a {
-    padding: 8 px;
-}
 
+#social-links ul li a {
+    display: block;
+    padding: 10 px;
+}
+/*
 #social-links ul li:hover {
     color:white;
     background-color: blue;
 }
-
-#social-links ul li a {
+*/
+#social-links ul li a:link {
     text-decoration: none;
     color: blue;
-    line-height: 50 px;
-}
 
+}
+#social-links ul li a:visited {
+    color: blue
+}
 #social-links ul li a:hover {
     color: white; 
+    background-color: blue;
 }
 /*FOOTER STYLES END*/
+
+/*MAIN DEFAULT STYLES START*/
+
+main{
+    font-family:"Arial";
+    color: darkblue;
+}
+
+main h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin: 30px;
+}
+
+main p{
+    font-size: 24px;
+}
+/*MAIN DEFAULT STYLES END*/
+
+/*HOME PAGE STYLE START*/
+
+main#homepage p {
+    margin: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+/*HOME PAGE STYLE END*/
+
+/*GALLERY STYLE START*/
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin margin-top: 20px;
+
+}
+
+#gallery div{
+    width: 200px;
+}
+
+#gallery div img {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+/*GALLERY STYLE END*/
+
+/*CONTACT STYLE START*/
+
+#contact-flexbox{
+    display: flex;
+    height: 300px;
+}
+
+#contact-flexbox div:first-child {
+    flex-grow: 3;
+    background-color: grey;
+}
+
+#contact-flexbox div:last-child {
+    flex-grow: 1;
+    background-color: silver;
+}
+
+
+
+/*CONTACT STYLE ENDS*/
