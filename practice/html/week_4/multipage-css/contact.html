@@ -40,20 +40,38 @@
 
             <!-- div: first-child selects the following:-->
             <div>
-                <form>
+                
+                <form id="contact-form" action="#">
                     <label for="name">Name: </label>
                     <input type="text" id="name" /><br />
-                    <input type="text"/><br />
-                    <input type="text"/><br />
-                    <textarea>
-                    </textarea>
+                    
+                    <label for="email">Email: </label>
+                    <input type="text" id="email"/><br />
+                    
+                    <label for="subject">Subject: </label>
+                    <input type="text" id="subject"/><br />
+                    
+                    <label for="message">Message: </br> </label>
+                    <textarea id="message"></textarea></br>
+                    
+                    <input class="form-buttons" type="reset"/>
+                    <input class="form-buttons" type="submit"/>
 
                 </form>
 
             </div>
 
             <!-- div:last-child selects the following-->
-            <div></div>
+            <div>
+                <dl>
+                    <dt>Adress:</dt>
+                    <dd>95 Posh St. San Francisco California,94440</dd>
+                    <dt>Email:</dt>
+                    <dd><a href="mailto:user@user.com">user@user.com</a></dd>
+                    <dt>Phone:</dt>
+                    <dd><a href="tel:4150000000">(415)-000 xxxx</a></dd>
+                
+            </div>
             
             
         </div>

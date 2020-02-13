@@ -107,7 +107,7 @@ footer {
 
 #social-links ul li {
    line-height: 100%;
-   box-sizing: border-box;
+  
 }
 
 
@@ -189,20 +189,71 @@ main#homepage p {
 
 /*CONTACT STYLE START*/
 
+#contact hr{
+    border: solid 5px blue;
+
+}
+
 #contact-flexbox{
     display: flex;
-    height: 300px;
+    
 }
 
 #contact-flexbox div:first-child {
     flex-grow: 3;
-    background-color: grey;
+    
 }
 
 #contact-flexbox div:last-child {
     flex-grow: 1;
-    background-color: silver;
+    
 }
+
+#contact-form {
+    width: 400px;
+    margin: 20px;
+
+}
+
+#contact-form label {
+    font-size: 24px;
+}
+
+#contact-form input {
+    border: solid 3px blue;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: blue;
+    padding-left: 11px;
+
+}
+
+#contact-form .form-buttons {
+    margin: 20px;
+    color: blue;
+    font-size: 18px;
+    width: 360px;
+}
+
+#contact-form .form-buttons{
+    border: solid coral 5px;
+    cursor: pointer;
+}
+
+#contact-form textarea {
+    border: dashed 3px blue;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 18px;
+    color: blue;
+}
+
 
 
 
