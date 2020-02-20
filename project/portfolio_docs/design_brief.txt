@@ -1,0 +1,141 @@
+Portifolio design
+
+COLORS:
+
+-Background: darkcyan; image;
+-Header text: darkblue;
+-Link text: blue;
+-Body text: black;
+
+IMAGES:
+
+-Backgroud image: https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+by Pixabay
+-Autocad: https://upload.wikimedia.org/wikipedia/en/e/ec/AutoCAD_2018_icon.png
+-CSS: htps://pluralsight.imgix.net/paths/path-icons/css-c9b214f0d7.png
+-C++: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png
+-html: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png
+-Office: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Microsoft_Office_2013_logo.svg/1200px-Microsoft_Office_2013_logo.svg.png
+
+
+HOME PAGE
+
+ABOUT ME
+
+<p>Hello, my name and Lucas, a native Brazilian, graduated in civil engineering, and now, building my career in the tech universe.</p>
+
+>Objectives/Goals
+
+Starting a professional career through a continuous learning and professional development process.
+Take advantage of scientific knowledge (theory and practice) get success in any professional activity in the management or technical area.
+Update technologically and recycle knowledge never forgetting the ethical concepts, respect and moral constructed during a personal life.
+
+
+>Education
+
+Civil Engineering - Bachelor degree for the Pontifical Catholic University of Goiás (PUC-GO).
+
+>Skills
+
+Spoken languages: Portuguese(Br), English, Espanish.
+Driving Experience
+AutoCad
+C++
+HTML
+CSS
+Office package (Word, Excel, Power Point, Internet);
+
+>Professional Experience:
+
+Sanitation of Goiás S/A – SANEAGO (June 2013 - December 2014)
+Budget management.
+Planning and development of new contracts.
+Project schedule control.
+Elaboration and maintenance of project reports.
+
+M.Prata Modas Ltda – January 2015 (January 2015 - November 2018)
+Budget management, including procuring and acquiring new products.
+Reporting regularly to company of directors in reference to the supply chain.
+Costumer Service.
+Responsible for periodic inventory control.
+Assistance in sales, administrative, managerial and production areas. 
+
+Uber
+Position: Driver. 
+Time Period: February 2019 to December 2019.
+
+
+
+PROJECT PAGE
+<p>Here are my projects that I've been working on and many more are coming.</p>
+
+<LINK HOBBY PROJECT>
+<LINK GALLERY - FLEXBOX>
+
+
+CONTACT PAGE
+
+
+<p>Interested in contacting me? I will be available through the following means of communication.</p>
+
+Address: 45 Staples Ave, San Francisco – CA.
+Phone: 628 230 9957
+E-mail: lucasfreirejesus@hotmail.com
+
+<p>In case of information needed, please contact me for more clarification.</p>
+<p>Thank you for your attention.</p>
+
+
+_________________________________________________________________________________________________
+EXEMPLES POTIFOLIO WEBSITES
+
+
+
+1)COLE TOWSEND
+URL:https://twnsnd.co/
+
+Good Reviews:
+Soft and, at the same time, interesting colors.
+The "Recent Work" is linked to a website that has a flex box.
+
+Bad Reviews:
+A navigation option doesn`t work correctly, or has no content.
+Unprofessional images.
+
+HEADER: Navigation bar.
+BODY:Images and text.
+FOOTER:Two divs, one regarding copyrights, and the other with reference links.
+
+2)CARLES PALACIO 
+URL:http://carlespalacio.com/portfolio/
+
+Good Reviews: 
+Easy an clear navigation.
+Flex-box working propely.
+Isteresting ans creativing logo.
+Smart choose of colors.
+
+Bad Reviews:
+Home page with large images, which results in an extensive page.
+
+HEADER: Navigation bar, that changes according to the page size.
+BODY:Mostly done by images.
+FOOTER:Logo, Name, and contact through social networks.
+
+3)WORKS
+URL: https://works.pm
+
+Good Reviews: 
+Button to return, useful.
+Nice font-family.
+
+Bad Reviews: 
+Navegation becomes a little confusing when accessing the menu 'works'.
+At this point is complicated to go back to the previous part.
+
+HEAD: Basicaly just a return button.
+BODY: Navigation and content.
+FOOTER: Nonexistent.
+
+
+
