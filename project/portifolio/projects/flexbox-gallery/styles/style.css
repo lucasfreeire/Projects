@@ -1,0 +1,42 @@
+body{
+    background-color: grey;
+}
+
+div#flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    height: 800px;   
+ 
+}
+
+#flex-gallery > figure {
+    background-color: silver;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+figure {
+    width: 200px;
+}
+figure > img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+figure > img {
+    border: solid cornsilk 1px;
+}
+
+figcaption {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    line-height: 20px;
+    color: black;
+    font-weight: 700;
+    font-family: serif;
+
+}

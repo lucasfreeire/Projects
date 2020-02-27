@@ -3,21 +3,23 @@ body{
 }
 
 div#flex-gallery {
-    display: 
-   
-     
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    height: 800px;   
  
 }
 
 #flex-gallery > figure {
     background-color: khaki;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 5px;
     
 }
 
 figure {
-    width: 210px;
+    width: 200px;
 }
 figure > img {
     width: 200px;
@@ -25,17 +27,16 @@ figure > img {
 }
 
 figure > img {
-    border: solid cornsilk 5px;
+    border: solid cornsilk 2px;
 }
 
 figcaption {
-    font-size: 24px;
+    font-size: 15px;
     text-align: center;
     margin: 10px;
-    line-height: 30px;
+    line-height: 20px;
     color: chocolate;
     font-weight: 700;
-    font-style: italic;
-    font-family: "American Typewriter";
+    font-family: serif;
 
 }

@@ -1,0 +1,198 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, main {
+   
+    width: 850px;
+    background-color: rgba(199, 204, 160, 0.4);
+    margin-left: 60px;
+    padding-left: 20px;
+    border-radius: 20px;
+         
+}
+/*__________HEADER________*/
+
+header {
+    border-bottom: solid 2px rgb(38, 100, 87);
+    
+    
+}
+
+#lucas {
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul {
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 20px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px;
+    margin-top: 5px;
+    font-family: "Arial";
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+nav ul li:hover {
+    background-color: gainsboro;
+    border-radius: 13px;  
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: rgb(46, 100, 100);
+}
+
+nav ul li a:visited {
+    color:  rgb(74, 122, 122);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+nav ul li a:active {
+    color: wheat;
+}
+
+/*____________MAIN_____________*/
+main{
+    font-family: serif;
+    color: rgb(0, 41, 41);
+    padding-bottom: 20px;
+
+}
+main h1{
+    font-family: sans-serif;
+    color: rgb(2, 73, 73);
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+main p {
+    font-family: serif;
+    color: black;
+    font-size: 25px;
+}
+/*_________________FOOTER___________________*/
+
+footer{
+    font-family: Arial; 
+    color: rgb(40, 77, 77);
+    line-height: 40px;
+    font-size: 20px;
+    width: 850px;
+}
+
+#links ul {
+    text-align: center;
+    
+}
+
+#links ul li{
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+    border: solid 1px rgb(38, 100, 87);
+    border-radius: 10px; 
+    margin-left: 40px; 
+    margin-right: 40px; 
+}
+
+#links ul li {
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+#links ul li a {
+    display: block;
+    padding: 10px;
+}
+#links ul li a:link {
+    text-decoration: none;
+    color: rgb(46, 100, 100);
+}
+
+#links ul li a:visited{
+    color: rgb(46, 100, 100);
+
+}
+#links ul li a:hover{
+    background-color: gainsboro;
+    border-radius: 10px;  
+
+}
+
+/*___________CONTACT__________*/
+
+
+#info{
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    width: 700px;
+
+}
+
+/*_____________WORK______________*/
+#projects h1{
+    margin-top: 50px;
+    
+}
+#projects ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;  
+}
+#projects ul li a {
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 30px;
+    
+    
+}
+
+#projects ul li a:link {
+    text-decoration: none;
+    color: rgb(46, 100, 100);
+}
+
+#projects ul li a:visited{
+    color: rgb(46, 100, 100);
+
+}
+#projects ul li a:hover{
+    color: rgb(46, 100, 100);
+    text-decoration: underline;
+}
+
+#work h2 {
+    margin-top: 40px;
+
+}
+
+#work ul li {
+    
+    font-size: 20px;
+    line-height: 23px;
+        
+}
+

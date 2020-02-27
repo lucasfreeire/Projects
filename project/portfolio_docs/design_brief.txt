@@ -1,16 +1,15 @@
 Portifolio design
 
-COLORS:
+COLORS/FONTS
 
--Background: darkcyan; image;
--Header text: darkblue;
--Link text: blue;
--Body text: black;
+-Background: image;
+-Header text: rgb(2, 73, 73); Sans-serif;
+-Link text: rgb(46, 100, 100); serif;
+-Body text: black; serif;
 
 IMAGES:
 
--Backgroud image: https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-by Pixabay
+-Backgroud image: https://www.pexels.com/photo/green-wooden-chair-on-white-surface-963486/
 -Autocad: https://upload.wikimedia.org/wikipedia/en/e/ec/AutoCAD_2018_icon.png
 -CSS: htps://pluralsight.imgix.net/paths/path-icons/css-c9b214f0d7.png
 -C++: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png
@@ -45,6 +44,10 @@ HTML
 CSS
 Office package (Word, Excel, Power Point, Internet);
 
+
+
+PROJECT PAGE
+
 >Professional Experience:
 
 Sanitation of Goiás S/A – SANEAGO (June 2013 - December 2014)
@@ -59,14 +62,6 @@ Reporting regularly to company of directors in reference to the supply chain.
 Costumer Service.
 Responsible for periodic inventory control.
 Assistance in sales, administrative, managerial and production areas. 
-
-Uber
-Position: Driver. 
-Time Period: February 2019 to December 2019.
-
-
-
-PROJECT PAGE
 <p>Here are my projects that I've been working on and many more are coming.</p>
 
 <LINK HOBBY PROJECT>
